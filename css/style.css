@@ -13,6 +13,9 @@ COLOR
 .container {
     background-color: lightcoral;
 }
+.fa-solid {
+    color: #777777;
+}
 
 /***************
 GENERAL
@@ -26,7 +29,30 @@ GENERAL
 }
 .box-img {
     width: 20%;
+    position: relative;
+    display: none;
 }
 img {
     max-width: 100%;
+}
+.img-block {
+    display: block;
+}
+button {
+    background: none;
+    border: none;
+}
+.fa-solid {
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.button-right {    
+    position: absolute;
+    right: 3%;
+    top: calc(50% - (25px / 2));
+}
+.button-left {    
+    position: absolute;
+    left: 3%;
+    top: calc(50% - (25px / 2));
 }
