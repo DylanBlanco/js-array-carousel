@@ -6,3 +6,27 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+/***************
+COLOR
+***************/
+.container {
+    background-color: lightcoral;
+}
+
+/***************
+GENERAL
+***************/
+.container {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-img {
+    width: 20%;
+}
+img {
+    max-width: 100%;
+}
